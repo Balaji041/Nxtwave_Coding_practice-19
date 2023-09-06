@@ -1,0 +1,20 @@
+N=int(input())
+sum=0
+for i in range(1,N+1):
+    num=int(input())
+    sum+=num
+    print(round(sum/i,3))
+"""
+input:5
+8
+11
+-96
+49
+85
+output:
+8.0
+9.5
+-25.667
+-7.0
+11.4
+"""
